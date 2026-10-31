@@ -23,8 +23,11 @@ elif person in ("USER","User","user"):
      password = input("Enter the password :")
      if password == "user123"or"User123"or"USER123":
          print("login confirmed!...")
+     else :
+         print("you have entered an wrong password")
 else :
     print("specify the person ur logging correctly")
+
 
 #converting meters to kilometers
 
