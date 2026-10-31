@@ -28,16 +28,17 @@ else :
 
 #converting meters to kilometers
 
-dist = float(input(("Enter the distance : ")))
-measure =  input("enter weather u entered in m or km or mil : ")
+dist = float(input(("Enter the distance   : ")))
+measure =  input("enter weather u entered in (m or km or mil) : ")
 conv = input("in what parameter u want to change the distance : ")
-
+# if the user enters in meters
 if measure == "m"and conv == "km" :
     dist = dist/1000
     print(f"The distance in the km = {dist}km")
 elif measure == "m"and conv == "mil":
     dist = dist*0.000621371
     print(f"The distance in the mil = {dist}mil ")
+#if the user enters in the km
 elif measure == "km"and conv == "m":
     dist = dist*1000
     print(f"the distance in the m = {dist}m")
@@ -52,3 +53,27 @@ elif measure == "mil" and conv == "m":
     print(f"the distance in the m = {dist}m")
 else :
     print("Enter the specify parameter")
+
+#Calculator
+num1 = float(input("enter the first number  ="))
+num2 = float(input("enter the first number  ="))
+
+opera = input("enter the operation u want to perform =")
+
+if opera == "+":
+    num = num1+num2
+    print(f"the addition of two numbers = {num}")
+elif opera == "-":
+    num = num1-num2
+    print(f"the sub of two numbers = {num}")
+elif opera == "*":
+    num = num1*num2
+    print(f"the multiplication of two numbers = {num}")
+elif opera == "/":
+    num = num1/num2
+    print(f"the division of two numbers = {num}")
+elif opera == "%":
+    num = num1%num2
+    print(f"the mod of two numbers = {num}")
+else :
+    print("enter this symbols +,-,*,/,%")
