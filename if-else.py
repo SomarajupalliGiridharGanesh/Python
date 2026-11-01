@@ -9,6 +9,8 @@ elif age<0:
 else :
     print("The person is not eligible for voting")
 
+
+
 #login password
 
 person = input("Are u an admin or user :")
@@ -27,6 +29,7 @@ elif person in ("USER","User","user"):
          print("you have entered an wrong password")
 else :
     print("specify the person ur logging correctly")
+
 
 
 #converting meters to kilometers
