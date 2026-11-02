@@ -1,6 +1,7 @@
 import math  
 #Area of the Square
 
+
 side   = float(input("Enter the side of an square : "))
 peris  = side*4
 area_s = side*side

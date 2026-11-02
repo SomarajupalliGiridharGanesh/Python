@@ -50,3 +50,4 @@ print("g|h  : " ,g|h)
 print(" ~h  : " , ~h)
 print("g<<h : ",g<<h)
 print("g>>h : ",g>>h)
+
