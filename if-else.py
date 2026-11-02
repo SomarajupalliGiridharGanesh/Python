@@ -17,13 +17,13 @@ person = input("Are u an admin or user :")
 
 if person in ("ADMIN","Admin","admin"):
      password = input("Enter the password :")
-     if password == "123abc"or"123ABC":
+     if password in ("123abc","123ABC"):
          print("login confirmed!...")
      else :
          print("you have entered an wrong password")
 elif person in ("USER","User","user"):
      password = input("Enter the password :")
-     if password == "user123"or"User123"or"USER123":
+     if password in ("user123","User123""USER123"):
          print("login confirmed!...")
      else :
          print("you have entered an wrong password")
